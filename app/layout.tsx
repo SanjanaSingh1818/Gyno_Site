@@ -11,28 +11,37 @@ export const metadata: Metadata = {
   description: 'Premium gynecology and infertility services in Kalkaji, New Delhi. Expert specialist offering fertility treatment, high-risk pregnancy care, and advanced women\'s healthcare.',
   keywords: 'gynecologist delhi, infertility specialist, fertility treatment, high-risk pregnancy, laparoscopic surgery, endometriosis, kalkaji',
   generator: 'v0.app',
+
   openGraph: {
     title: 'Dr. Priyadarshini Ghosh - Gynecologist in Delhi',
     description: 'Trusted gynecologist specializing in infertility, fertility treatment, and high-risk pregnancy management in Kalkaji, Delhi.',
     type: 'website',
   },
+
+  // ✅ UPDATED FAVICONS
   icons: {
     icon: [
+      { url: '/favicon.ico' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180' },
+    ],
+    other: [
       {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
+        rel: 'android-chrome',
+        url: '/android-chrome-192x192.png',
       },
       {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
+        rel: 'android-chrome',
+        url: '/android-chrome-512x512.png',
       },
     ],
-    apple: '/apple-icon.png',
   },
+
+  // ✅ VERY IMPORTANT
+  manifest: '/site.webmanifest',
 }
 
 import AppointmentModal from '@/components/appointment-modal'
