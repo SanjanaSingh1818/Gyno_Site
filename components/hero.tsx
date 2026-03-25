@@ -41,7 +41,6 @@ export default function Hero() {
     >
 
       {/* CAROUSEL */}
-
       <AnimatePresence mode="wait">
         <motion.div
           key={current}
@@ -57,7 +56,6 @@ export default function Hero() {
             if (info.offset.x > 100) prevSlide()
           }}
         >
-
           <Image
             src={banners[current]}
             alt="Clinic Banner"
@@ -65,18 +63,22 @@ export default function Hero() {
             priority
             className="object-cover"
           />
-
         </motion.div>
       </AnimatePresence>
 
+      {/* ✅ PREMIUM SIDE OVERLAYS */}
 
-      {/* CINEMATIC DARK GRADIENT */}
+      {/* Left — Deep cinematic black */}
+      <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/30 to-transparent" />
 
-      <div className="absolute inset-0 bg-gradient-to-r from-black/45 via-black/20 to-transparent" />
+      {/* Right — Soft white fade */}
+      <div className="absolute inset-0 bg-gradient-to-l from-white/40 via-white/10 to-transparent" />
+
+      {/* Subtle vignette (top + bottom depth) */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/40" />
 
 
       {/* FLOATING BADGE — EXPERIENCE */}
-
       <motion.div
         className="absolute left-4 md:left-10 bottom-16 md:bottom-20 bg-white/90 backdrop-blur-md px-4 py-2 rounded-xl shadow-md flex items-center gap-2"
         animate={{ y: [0, -10, 0] }}
@@ -88,9 +90,7 @@ export default function Hero() {
         </span>
       </motion.div>
 
-
       {/* FLOATING BADGE — RATING */}
-
       <motion.div
         className="absolute right-4 md:right-10 bottom-16 md:bottom-20 bg-white/90 backdrop-blur-md px-4 py-2 rounded-xl shadow-md flex items-center gap-2"
         animate={{ y: [0, -12, 0] }}
@@ -102,9 +102,7 @@ export default function Hero() {
         </span>
       </motion.div>
 
-
       {/* LEFT ARROW */}
-
       <button
         onClick={prevSlide}
         className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white p-2 rounded-full shadow"
@@ -112,9 +110,7 @@ export default function Hero() {
         ‹
       </button>
 
-
       {/* RIGHT ARROW */}
-
       <button
         onClick={nextSlide}
         className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white p-2 rounded-full shadow"
@@ -122,9 +118,7 @@ export default function Hero() {
         ›
       </button>
 
-
       {/* DOT INDICATORS */}
-
       <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
         {banners.map((_, index) => (
           <button
