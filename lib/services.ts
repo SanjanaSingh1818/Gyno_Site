@@ -40,5 +40,22 @@ export const services = [
     image: "https://kangaroocarefertility.com/blogs/blog-44.jpg",
     slug: "diagnostic-laparoscopy-for-infertility",
     details: "Advanced laparoscopic procedure to diagnose causes of infertility. This minimally invasive surgery allows direct visualization of pelvic organs to identify endometriosis, adhesions, ovarian cysts, and other fertility-impacting conditions."
+  },
+  {
+    title: "Laparoscopic Hysterectomy",
+    desc: "Minimally invasive removal of the uterus with faster recovery.",
+    image: "https://yashadaahospital.com/wp-content/uploads/2022/04/hysterectomy.jpg",
+    slug: "laparoscopic-hysterectomy",
+    details:
+      "A modern surgical procedure to remove the uterus using laparoscopic techniques. It ensures smaller incisions, reduced pain, minimal blood loss, and quicker recovery compared to traditional open surgery."
+  },
+
+  {
+    title: "Ovarian Cystectomy",
+    desc: "Precise removal of ovarian cysts while preserving fertility.",
+    image: "https://www.drsadimankiykac.com/wp-content/uploads/2025/04/yumurtalik_kisti-1024x574.jpg",
+    slug: "ovarian-cystectomy",
+    details:
+      "A specialized surgical procedure to remove cysts from the ovary while preserving healthy ovarian tissue. It helps relieve pain, restore normal ovarian function, and supports future fertility."
   }
 ]

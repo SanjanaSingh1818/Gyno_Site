@@ -1,0 +1,6 @@
+{
+    "recommendations": [
+        "mintlify.document",
+        "anthropic.claude-code"
+    ]
+}

@@ -175,9 +175,9 @@ export default function AboutDr() {
             >
 
               <Image
-                src="/dr1.png"
+                src="/dr-removebg.png"
                 alt="Dr Priyadarshini Ghosh"
-                width={400}
+                width={380}
                 height={540}
                 className="object-cover"
               />

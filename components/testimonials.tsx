@@ -8,39 +8,39 @@ import { scrollFadeInVariants } from "@/lib/animation-variants"
 
 const testimonials = [
 {
-name:"Priya M.",
-title:"IVF Patient",
-content:"Dr. Priyadarshini's compassionate approach gave me confidence throughout my IVF journey. Her guidance made everything easier.",
+name:"Anurag Bardiyar",
+title:"Pregnancy Care & Delivery",
+content:"Dr. Priyadarshini Ma’am’s clinic is truly one of the best in Delhi. Her kindness, patience, & clear guidance removed all our fears & anxiety as 1st time parents.",
 rating:5
 },
 {
-name:"Anjali S.",
+name:"Muzaffar Khan",
 title:"High Risk Pregnancy",
-content:"My pregnancy was high risk but Dr. Priyadarshini handled it beautifully. Her constant support gave me peace of mind.",
+content:"We are extremely grateful to Dr. Ghos for her exceptional care throughout our twin pregnancy and premature delivery at 33 weeks. Highly recommended.",
 rating:5
 },
 {
-name:"Neha K.",
-title:"Endometriosis Treatment",
-content:"She truly understands endometriosis. The treatment plan she created changed my life and relieved years of pain.",
-rating:5
-},
-{
-name:"Isha R.",
-title:"General Gynecology",
-content:"Dr. Priyadarshini is incredibly patient and explains everything clearly. I always felt comfortable during consultations.",
-rating:5
-},
-{
-name:"Riya P.",
-title:"Fertility Consultation",
-content:"Professional, kind and extremely knowledgeable. One of the best fertility specialists I have met.",
-rating:5
-},
-{
-name:"Kavya D.",
+name:"Kaveen Thakur",
 title:"Pregnancy Care",
-content:"The clinic environment is welcoming and the doctor truly listens to patients. Highly recommended.",
+content:"Dr. Gosh is an exceptional & highly recommended gynecologist. After 4 years of marriage, we were facing difficulties in conceiving, but we were blessed to conceive within one month.",
+rating:5
+},
+{
+name:"Simita Mukhopadhyay",
+title:"General Gynecology",
+content:"She is the best gynae in Delhi NCR. A very experienced and super efficient surgeon, she operated on my daughter, and my daughter was on her feet within a couple of days",
+rating:5
+},
+{
+name:"Parveen Kaliramna",
+title:"Pregnancy Care",
+content:"Dr. Priyadarshani Ghosh was absolutely fantastic throughout my pregnancy and delivery. Her care, guidance, and kindness made me feel confident.",
+rating:5
+},
+{
+name:"Ayush Sharma",
+title:"Pregnancy Care",
+content:"From the first consultation to the whole process, Dr. Priyadarshini has been outstanding. She is calm, compassionate, and extremely experienced.",
 rating:5
 }
 ]
@@ -229,7 +229,7 @@ className="inline-flex items-center gap-3 bg-[#c45166] text-white px-7 py-3 sm:p
 >
 
 <img
-src="https://toppng.com/uploads/preview/google-g-logo-icon-11609362962anodywxeaz.png"
+src="https://png.pngtree.com/png-vector/20230817/ourmid/pngtree-google-internet-icon-vector-png-image_9183287.png"
 className="w-5"
 />
 
