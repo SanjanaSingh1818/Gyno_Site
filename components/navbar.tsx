@@ -51,14 +51,14 @@ export default function Navbar() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6">
             <div className="flex items-center justify-between py-2">
               <div className="flex items-center gap-6">
-                <a href="tel:+919910391381" className="flex items-center gap-2">
+                <a href="tel:+918595274949" className="flex items-center gap-2">
                   <Phone className="h-4 w-4" />
-                  +91-9910391381
+                  +91-8595274949
                 </a>
 
-                <a href="mailto:priyadarshinighosh@gmail.com" className="flex items-center gap-2">
+                <a href="mailto:advancedgynaecare@gmail.com" className="flex items-center gap-2">
                   <Mail className="h-4 w-4" />
-                  priyadarshinighosh@gmail.com
+                  advancedgynaecare@gmail.com
                 </a>
               </div>
 

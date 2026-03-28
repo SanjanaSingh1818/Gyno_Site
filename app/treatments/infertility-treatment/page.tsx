@@ -250,7 +250,7 @@ export default function InfertilityTreatmentPage() {
       {/* ✅ CALL NOW → DIRECT CALL */}
       <Button
         variant="outline"
-        onClick={() => window.location.href = 'tel:+919910391381'}
+        onClick={() => window.location.href = 'tel:+918595274949'}
         className="border-[#c45166] text-[#c45166] hover:bg-[#c45166] hover:text-white"
       >
         <Phone className="mr-2 h-4 w-4" />

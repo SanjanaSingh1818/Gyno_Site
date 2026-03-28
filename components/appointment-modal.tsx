@@ -137,7 +137,7 @@ export default function AppointmentModal() {
     }
 
     const whatsappText = `Hello, I would like to book an appointment.%0A%0APatient Name: ${patientName}%0APhone: ${patientPhone}%0ADate: ${appointmentDate}%0ATime Slot: ${selectedSlot}%0A${selectedServices.length > 0 ? `%0AService: ${selectedServices.join(', ')}` : ''}%0A%0ADoctor: Dr. Priyadarshini Ghosh`
-    const waUrl = `https://wa.me/919910391381?text=${whatsappText}`
+    const waUrl = `https://wa.me/918595274949?text=${whatsappText}`
     window.open(waUrl, '_blank')
     closeModal()
   }

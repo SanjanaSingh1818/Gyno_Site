@@ -129,7 +129,7 @@ export default function AppointmentForm() {
             value={form.phone}
             onChange={(e) => setForm((prev) => ({ ...prev, phone: e.target.value }))}
             required
-            placeholder="+91 99103 91381"
+            placeholder="+918595274949"
             className="h-10"
           />
         </div>

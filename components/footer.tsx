@@ -127,15 +127,15 @@ Contact
 
 <li className="flex items-center gap-2">
 <Phone size={16}/>
-<a href="tel:+919910391381" className="hover:text-white">
-+91 99103 91381
+<a href="tel:+918595274949" className="hover:text-white">
++91-8595274949
 </a>
 </li>
 
 <li className="flex items-center gap-2">
 <Mail size={16}/>
-<a href="mailto:dr.priyadarshini@clinic.com" className="hover:text-white">
-dr.priyadarshini@clinic.com
+<a href="mailto:advancedgynaecare@gmail.com" className="hover:text-white">
+advancedgynaecare@gmail.com
 </a>
 </li>
 
@@ -170,14 +170,14 @@ dr.priyadarshini@clinic.com
 <div className="flex gap-4 mt-4 md:mt-0">
 
 <Link
-  href="mailto:dr.priyadarshini@clinic.com"
+  href="mailto:advancedgynaecare@gmail.com"
   className="p-2 rounded-full bg-white/10 hover:bg-white/20 transition transform hover:scale-110"
 >
   <Mail size={18} />
 </Link>
 
 <Link
-  href="https://api.whatsapp.com/send/?phone=919910391381&text&type=phone_number&app_absent=0"
+  href="https://api.whatsapp.com/send/?phone=918595274949&text&type=phone_number&app_absent=0"
   target="_blank"
   className="p-2 rounded-full bg-white/10 hover:bg-white/20 transition transform hover:scale-110"
 >

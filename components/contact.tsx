@@ -43,7 +43,7 @@ Date: ${formData.date}
 Message:
 ${formData.message}`
 
-    window.open(`https://wa.me/919910391381?text=${encodeURIComponent(msg)}`)
+    window.open(`https://wa.me/918595274949?text=${encodeURIComponent(msg)}`)
 
     setSubmitted(true)
 
@@ -99,8 +99,8 @@ ${formData.message}`
                 </div>
                 <div>
                   <p className="text-sm text-gray-500">Call Us</p>
-                  <a href="tel:+919910391381" className="font-semibold">
-                    +91 9910391381
+                  <a href="tel:+918595274949" className="font-semibold">
+                    +91-8595274949
                   </a>
                 </div>
               </div>
@@ -111,8 +111,8 @@ ${formData.message}`
                 </div>
                 <div>
                   <p className="text-sm text-gray-500">Email</p>
-                  <a href="mailto:priyadarshinighosh@gmail.com" className="font-semibold">
-                    priyadarshinighosh@gmail.com
+                  <a href="mailto:advancedgynaecare@gmail.com" className="font-semibold">
+                    advancedgynaecare@gmail.com
                   </a>
                 </div>
               </div>
@@ -136,11 +136,9 @@ ${formData.message}`
                 <div>
                   <p className="text-sm text-gray-500">Timings</p>
                   <p className="font-medium text-sm">
-                    Mon–Sat: 9:30 AM – 1:30 PM
+                    Mon–Sat: 11:00 AM – 7:00 PM
                   </p>
-                  <p className="font-medium text-sm">
-                    Evening: 5:30 PM – 8:00 PM
-                  </p>
+                 
                   <p className="text-red-500 text-sm mt-1">Sunday Closed</p>
                 </div>
               </div>

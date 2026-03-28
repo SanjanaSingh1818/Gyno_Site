@@ -24,10 +24,10 @@ const hour = now.getHours()
 const minute = now.getMinutes()
 const current = hour + minute/60
 
-const morningOpen = 9.5
+const morningOpen = 11
 const morningClose = 13.5
-const eveningOpen = 17.5
-const eveningClose = 20
+const eveningOpen = 14.5
+const eveningClose = 19
 
 if(day !== 0 && (
 (current >= morningOpen && current <= morningClose) ||
@@ -125,7 +125,7 @@ isOpen
 
 <p>
 <strong>Monday – Saturday:</strong><br/>
-9:30 AM – 1:30 PM | 5:30 PM – 8:00 PM
+11:00 AM – 7:00 PM<br/>
 </p>
 
 <p>
@@ -140,7 +140,7 @@ isOpen
 <div className="flex flex-wrap md:flex-nowrap gap-3 md:gap-4">
 
 <a
-href="tel:+919910391381"
+href="tel:+918595274949"
 className="flex items-center gap-2 bg-[#c45166] text-white px-4 md:px-5 py-2 md:py-3 rounded-full text-xs md:text-sm font-medium shadow-sm hover:shadow transition"
 >
 <div className="bg-white/20 p-1.5 rounded-md">

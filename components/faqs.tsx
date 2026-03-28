@@ -42,7 +42,7 @@ export default function FAQs() {
     },
     {
       question: 'How can I book an appointment?',
-      answer: 'You can book an appointment by calling +91-9910391381 or by using the “Book Appointment” option available on the website.',
+      answer: 'You can book an appointment by calling +91-8595274949 or by using the “Book Appointment” option available on the website.',
     },
     {
       question: 'Is the clinic equipped with diagnostic facilities?',
