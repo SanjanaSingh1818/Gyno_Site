@@ -44,7 +44,7 @@ export const services = [
   {
     title: "Laparoscopic Hysterectomy",
     desc: "Minimally invasive removal of the uterus with faster recovery.",
-    image: "https://yashadaahospital.com/wp-content/uploads/2022/04/hysterectomy.jpg",
+    image: "https://drdeepikadoshi.com/wp-content/uploads/2021/09/Uterus-removal-surgery.jpg",
     slug: "laparoscopic-hysterectomy",
     details:
       "A modern surgical procedure to remove the uterus using laparoscopic techniques. It ensures smaller incisions, reduced pain, minimal blood loss, and quicker recovery compared to traditional open surgery."

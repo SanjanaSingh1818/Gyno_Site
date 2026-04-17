@@ -79,7 +79,7 @@ export default function LaparoscopicGynecologyPage() {
 
             <div className="relative rounded-3xl overflow-hidden shadow-lg">
               <Image
-                src="https://sukhipariwarclinic.com.np/wp-content/uploads/2024/08/Understanding-Laparoscopic-Gynecological-Surgeries-Benefits-Procedures-and-Recovery.png"
+                src="https://vermanhospital.com/wp-content/uploads/2023/10/Laparoscopic-Surgery-for-Endometriosis.jpeg"
                 alt="Laparoscopic surgery"
                 width={600}
                 height={500}

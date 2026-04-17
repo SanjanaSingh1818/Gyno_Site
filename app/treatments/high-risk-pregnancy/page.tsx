@@ -66,7 +66,7 @@ export default function HighRiskPregnancyPage() {
 
             <div className="relative rounded-3xl overflow-hidden shadow-lg">
               <Image
-                src="https://emi.parkview.com/media/Image/Dashboard_835_maternal_fetal_medicine_10_23.jpeg"
+                src="https://www.kernodle.com/wp-content/uploads/2020/01/Kernodle_High-Risk-pregnancy.jpeg"
                 alt="High risk pregnancy"
                 width={600}
                 height={500}

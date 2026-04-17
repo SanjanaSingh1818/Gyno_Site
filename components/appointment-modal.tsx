@@ -19,12 +19,6 @@ const services = [
 ]
 
 const slots = [
-  "09:30 AM",
-  "09:45 AM",
-  "10:00 AM",
-  "10:15 AM",
-  "10:30 AM",
-  "10:45 AM",
   "11:00 AM",
   "11:15 AM",
   "11:30 AM",
@@ -43,8 +37,6 @@ const slots = [
   "06:30 PM",
   "06:45 PM",
   "07:00 PM",
-  "07:15 PM",
-  "07:30 PM",
   
 ]
 
@@ -166,7 +158,7 @@ export default function AppointmentModal() {
 
         {/* Price */}
         <p className="text-center text-sm mt-3 text-gray-600">
-          Consultation Fee <span className="font-semibold text-[#c45166]">₹800</span>
+          Consultation Fee <span className="font-semibold text-[#c45166]">₹1000</span>
         </p>
 
         {/* Patient Details */}
@@ -209,7 +201,7 @@ export default function AppointmentModal() {
               )}
             </div>
             <p className="text-sm text-gray-500">
-              from <span className="font-semibold text-[#c45166]">₹800</span>
+              from <span className="font-semibold text-[#c45166]">₹1000</span>
             </p>
           </div>
 
